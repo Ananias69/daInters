@@ -5,7 +5,7 @@ const PokeCard = () => {
   return (
     <div className={`${style["container-div"]}`}>
       <div className ={`${style['div-name']}`}>
-        <p className ={`${style['p-name']}`}>Pikachu</p>
+        <p className ={`${style['p-name']}`}>Pikachuuuu</p>
       </div>
       <div className={`${style["div-img-container"]}`}>
         <img

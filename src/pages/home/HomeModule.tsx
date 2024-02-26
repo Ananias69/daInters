@@ -10,7 +10,7 @@ import PokeCardParams from "./PokeCardParams";
 //import style from "../../";
 
 const HomeModule = () => {
-  const [cont, setcont] = useState<number>(2);
+  const [cont, setcont] = useState<number>(29);
   const [color, setcolor] = useState<boolean>(false);
   const [input, setinput] = useState<string>("");
   const [pokemonInfo, setpokemonInfo] = useState<IpokemonInfo | null>(null);
@@ -18,7 +18,7 @@ const HomeModule = () => {
   async function getInfo() {
     try {
       const response: IdataApi = await axios.get(
-        "https://pokeapi.co/api/v2/pokemon/51"
+        "https://pokeapi.co/api/v2/pokemon/529"
       );
       console.log(response);
       console.log(response.data);
