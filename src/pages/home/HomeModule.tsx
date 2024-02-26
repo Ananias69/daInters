@@ -18,7 +18,7 @@ const HomeModule = () => {
   async function getInfo() {
     try {
       const response: IdataApi = await axios.get(
-        "https://pokeapi.co/api/v2/pokemon/529"
+        "https://pokeapi.co/api/v2/pokemon/749"
       );
       console.log(response);
       console.log(response.data);
